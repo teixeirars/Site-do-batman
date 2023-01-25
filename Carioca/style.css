@@ -1,0 +1,85 @@
+body {
+    background-color: #e1e2e1;
+}
+
+.cabecalho{
+    background-color: black;
+    padding: 1px 1px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float:right ;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 5px;
+    height:  5px
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    min-width: 320px; 
+      max-width: 1024px;
+    /* width: 900; */
+    margin: 0 auto;
+
+    /* margin: 0 auto; */
+}
+
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .cabecalho nav {
+       float: none;
+    }
+}
+
+.cabecalho nav li {
+    display: block;
+    
+}
+
+.info{
+    color: blueviolet;
+}
+
+.Bruce {
+    color: chocolate;
+}
+
+.cor {
+    color: blueviolet
+}
+
+.cabecalho2{
+    color: #e1e2e1;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Luiz{
+  text-align: center;
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Comentários {
+    padding: 40px;
+}
+
