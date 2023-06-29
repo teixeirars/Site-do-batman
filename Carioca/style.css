@@ -1,24 +1,37 @@
+
 body {
     background-color: #e1e2e1;
+    margin: 0;
+    top: 0;
 }
 
 .cabecalho{
     background-color: black;
     padding: 1px 1px;
+    
+    
 }
 
 .cabecalho .logo {
     display: inline-block;
 }
 
-.cabecalho nav {
+nav {
     float:right ;
+    display: none;
+    flex-direction: column;
+    
 }
 
-.cabecalho nav li {
-    display: inline-block;
+nav.active {
+    display: flex;
+    
+}
+
+nav li {
+    list-style: none;
     padding: 5px;
-    height:  5px
+
 }
 
 main {
@@ -42,6 +55,8 @@ main p {
 
 .image img {
     width: 100%;
+   
+    
 }
 
 @media (max-width: 576px) {
@@ -52,34 +67,69 @@ main p {
 
 .cabecalho nav li {
     display: block;
+
+    
     
 }
 
 .info{
-    color: blueviolet;
+    color: black;
 }
 
 .Bruce {
-    color: chocolate;
+    color: black;
 }
 
 .cor {
-    color: blueviolet
+    color: black;
 }
 
 .cabecalho2{
     color: #e1e2e1;
     font-size: 15px;
     text-align: center;
+    
 }
 
-.Luiz{
-  text-align: center;
-  padding: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 
 .Comentários {
     padding: 40px;
+    border-radius: 50px;
 }
+
+
+a {
+    cursor: progress;
+    padding: 3px;
+    height: 1px;
+}
+
+a:visited {
+    color: black;
+}
+
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 50px;
+
+}
+
+
+
+.info button {
+    border-radius: 50px;
+}
+
+.comentario {
+    border-radius: 50px;
+}
+
+
 
